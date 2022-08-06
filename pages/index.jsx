@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import HomeBanner from '../components/Banner'
-import DiscountCard from '../components/Banner/DiscountCard'
+import CorouselBanner from '../components/Banner/corouselBanner'
 import Featured from '../components/Featured'
 import HomeLayout from '../components/Layouts'
-import Navbar from '../components/Navbar'
+
 import SmallNav from '../components/Navbar/SmallNav'
 import PopularProducts from '../components/PopularProducts'
 
