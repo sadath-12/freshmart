@@ -15,7 +15,7 @@ const Featured = () => {
 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
   {category?.slice(0,12).map((item,index)=>(
 
-<FeatureCard item={item} />
+<FeatureCard key={index} item={item} />
   ))}
 </div>
 

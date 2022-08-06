@@ -18,7 +18,7 @@ const PopularProducts = () => {
 
       <div className="grid grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
         {products?.slice(0, 12).map((item, index) => (
-          <ProductCard item={item} />
+          <ProductCard key={index} item={item} />
         ))}
       </div>
     </div>

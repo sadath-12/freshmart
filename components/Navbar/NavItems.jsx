@@ -22,8 +22,8 @@ const NavItems = () => {
 {showPages && (
     <div className='flex flex-col absolute top-8   px-8 py-3 ' onMouseEnter={()=>setShowPages(true)}  onMouseLeave={()=>setShowPages(false)}>
      
-     {pagesData.map(({title,Icon,link})=>(
-      <Link href={link} passHref >
+     {pagesData.map(({title,Icon,link},index)=>(
+      <Link href={link} passHref key={index}>
         <div className='flex space-x-3 p-3 bg-white shadow-md rounded-lg hover:text-green-600 hover:bg-gray-100'>
 {Icon && <Icon/> }
 <h3>{title}</h3>

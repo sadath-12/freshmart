@@ -12,7 +12,7 @@ const FeatureCard = ({item}) => {
         <h2>{item.parent}</h2>
         <div className="flex flex-col gap-3">
             {item?.children?.slice(0,3).map((item,index)=>(
-          <div className="flex gap-2">
+          <div className="flex gap-2" key={index} >
             <AiOutlineRight />
             <p className="text-xs text-gray-500">{item}</p>
           </div>
