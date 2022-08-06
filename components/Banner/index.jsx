@@ -1,5 +1,5 @@
 import React from 'react'
-import CorouselBanner from './corouselBanner'
+import CorouselBanner from './CorouselBanner'
 import DiscountCard from './DiscountCard'
 
 const HomeBanner = () => {
