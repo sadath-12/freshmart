@@ -1,8 +1,14 @@
 import React from 'react'
+import BannerCard from '../../components/Cart/BannerCard'
+import HomeLayout from '../../components/Layouts'
 
 const Search = () => {
   return (
-    <div>Search</div>
+   <HomeLayout>
+    <div>
+      <BannerCard/>
+    </div>
+   </HomeLayout>
   )
 }
 
