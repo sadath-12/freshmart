@@ -30,13 +30,3 @@ export default function Home() {
 }
 
 
-export async function getStaticProps(){
-  console.log('server running')
-  const products =[]
-  return {
-props:{
-  products
-},
-revalidate:10
-  }
-}
